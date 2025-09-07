@@ -77985,7 +77985,7 @@ A.WQ.prototype={
 pm(a,b){return this.ai4(a,b)},
 ai4(a,b){var s=0,r=A.R(t.y),q,p=this,o,n,m,l,k
 var $async$pm=A.N(function(c,d){if(c===1)return A.O(d,r)
-while(true)switch(s){case 0:n=A.fx("https://<vase-jmeno>.pythonanywhere.com/api/token/")
+while(true)switch(s){case 0:n=A.fx("https://isestra.pythonanywhere.com/api/token/")
 m=t.N
 l=A.aj(["Content-Type","application/json; charset=UTF-8"],m,m)
 s=3
@@ -78022,7 +78022,7 @@ if(o==null){q=[]
 s=1
 break}m=t.N
 s=4
-return A.M(A.aLV(A.fx("https://<vase-jmeno>.pythonanywhere.com/api/nurse-tools/guidelines/"),A.aj(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+o],m,m)),$async$pQ)
+return A.M(A.aLV(A.fx("https://isestra.pythonanywhere.com/api/nurse-tools/guidelines/"),A.aj(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+o],m,m)),$async$pQ)
 case 4:n=b
 if(n.b===200){q=B.cf.DX(0,A.axQ(A.awZ(n.e)).f6(0,n.w),null)
 s=1
@@ -78042,7 +78042,7 @@ if(o==null){q=!1
 s=1
 break}n=t.N
 s=4
-return A.M(A.ayc(A.fx("https://<vase-jmeno>.pythonanywhere.com/api/nurse-tools/document-templates/transcribe_and_save/"),a,A.aj(["Authorization","Bearer "+o,"Content-Type","application/octet-stream"],n,n)),$async$tV)
+return A.M(A.ayc(A.fx("https://isestra.pythonanywhere.com/api/nurse-tools/document-templates/transcribe_and_save/"),a,A.aj(["Authorization","Bearer "+o,"Content-Type","application/octet-stream"],n,n)),$async$tV)
 case 4:if(c.b===201){q=!0
 s=1
 break}else{q=!1
